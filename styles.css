@@ -1,0 +1,309 @@
+
+
+:root {
+    --copper: 'Copperplate Gothic Light', sans-serif;
+    --century: 'Century Schoolbook', sans-serif;
+    --comic: 'Comic Futura', sans-serif;
+
+    --black: #040f0fff;
+    --dark-grey: #2d3a3aff;
+    --mid-grey: #637070ff;
+    --light-grey: #bcccccff;
+    --white: #ffffff;
+
+    --dark-green: #124119ff;
+    --base-green: #248232ff;
+    --light-green1: #67a170ff;
+    --light-green2: #92c199ff;
+    --light-green3: #b7e0bdff;
+
+    --grey-scale1: #0b1321ff;
+    --grey-scale2: #343d4dff;
+    --grey-scale3: #5f697aff;
+    --grey-scale4: #8b95a6ff;
+    --grey-scale5: #b7c1d3ff;
+}
+
+header {
+    background-color: var(--grey-scale1);
+    border-bottom-style: ridge;
+    border-color: var(--grey-scale4);
+    font-family: var(--century);
+    height: 125px;
+    width: 100%;
+}
+
+.top {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+}
+
+.logo {
+    height: 75px;
+    margin: auto;
+    margin-left: 2rem;
+    margin-right:0;
+}
+
+.bctitle {
+    font-size: 75px;
+    text-align: left;
+    font-family: var(--copper);
+    margin: auto;
+    margin-left: 0;
+}
+
+.top p {
+    margin-right: 2rem;
+}
+
+#login {
+    font-size: 17px;
+    color: var(--antiflash-white);
+    text-align: center;
+    font-family: var(--century);
+    margin-right: 1rem;
+}
+
+#search-bar {
+    width: 150px;
+}
+
+#search {
+    font-family: var(--century);
+    font-size: 15px;
+    padding: 0px;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+    margin-bottom: -12px;
+}
+
+.nav {
+    margin: 0;
+    display:flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-right: 2rem;
+    list-style-type: none;
+    
+}
+
+.nav-item a {
+    background-color: var(--light-green1);
+    color: var(--black);
+    text-decoration: none;
+    display: block;
+    border-radius: 20px;
+    width: 125px;
+    height: 25px;
+}
+
+body {
+    background-color: var(--grey-scale1);
+    text-align: center;
+    font-family: var(--century);
+    font-size: 17px;
+    color: var(--white);
+}
+
+button {
+    width: 125px;
+    height: 35px;
+    background-color: var(--light-green1);
+    border-style: none;
+    border-radius: 20px;
+}
+
+button a {
+    font-size: 18px;
+    font-family: var(--century);
+    color: var(--black);
+    text-decoration: none;
+}
+
+.section1 {
+    background-image: url(img/beasty.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 1350px;
+}
+
+.arcanum {
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+.arcanum div {
+    width: 20%;
+    height: 400px;
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: rgba(11, 19, 33, 0.7);
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.book h1 {
+    font-family: var(--century);
+    font-size: 28px;
+    height: 50px;
+}
+
+.book img {
+    width: 100px;
+    height: 100px;
+    border-color: var(--grey-scale5);
+    border-style:ridge;
+    border-radius: 20px;
+}
+
+.book p {
+    font-family: var(--comic);
+}
+
+.bd1 {
+    font-size: 20px;
+}
+
+.about {
+    background: rgba(11, 19, 33, 0.7);
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-left: 10%;
+    padding: 30px;
+    width: 40%;
+    text-align: left;
+    font-family: var(--comic);
+}
+
+.about h1 {
+    color: var(--light-green1);
+    font-size: 40px;
+    font-family: var(--copper);
+}
+
+.section2 {
+    display:flex;
+    justify-content: flex-end;
+}
+
+.creation {
+    width: 40%;
+    font-size: 20px;
+    font-family: var(--comic);
+    color: var(--grey-scale3);
+    padding: 30px;
+    margin-right: 15%;
+}
+
+.creation h1 {
+    font-family: var(--copper);
+    color: var(--light-green1);
+}
+
+.creation button {
+    width:150px;
+}
+
+.section3 {
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+}
+
+.discord {
+    width: 40%;
+    font-size: 20px;
+    font-family: var(--comic);
+    color: var(--grey-scale3);
+    padding: 30px;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.discord h1 {
+    font-family: var(--copper);
+    color: var(--light-green1);
+}
+
+.discord p {
+    text-indent: 25px;
+}
+
+.discord button {
+    margin-left: 70%;
+}
+
+.section4 {
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 150px;
+}
+
+.news {
+    width: 60%;
+    margin-bottom: 150px;
+}
+
+.news h1 {
+    font-family: var(--copper);
+    color: var(--light-green1);
+    margin-right: 25%;
+}
+
+.news-content {
+    font-size: 20px;
+    font-family: var(--comic);
+    color: var(--grey-scale5);
+    padding: 30px;
+    margin-right: 20%;
+    text-align: left;
+    background-color: rgba(46, 55, 63, 0.5);
+    border-radius: 20px;
+}
+
+.news-content h2 {
+    color: var(--white);
+    margin-bottom: 60px;
+}
+
+.news-content button {
+    width: 160px;
+    margin-left: 70%;
+}
+
+footer {
+    background-color: var(--grey-scale1);
+    border-top-style: ridge;
+    border-color: var(--grey-scale4);
+    font-family: var(--century);
+    height: 125px;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5%;
+}
+
+.bottom div {
+    width: 250px;
+}
+
+.bottom p {
+    font-size: 18px;
+    margin-top: 20px;
+    margin: 0;
+    padding: 0;
+}
